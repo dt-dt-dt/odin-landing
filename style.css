@@ -27,3 +27,24 @@ header {
     width: 800px;
     height: 250px;
 }
+
+.section-b h2 {
+    text-align: center;
+}
+
+.blocks {
+    display: flex;
+    text-align: center;
+}
+
+.blocks-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#placeholder-b {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: 2px #3882F6 solid;
+}
