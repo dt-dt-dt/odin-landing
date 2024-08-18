@@ -171,10 +171,19 @@ button {
 
 .section-c {
     background-color: #E5E7EB;
+    padding: 128px 256px;
 }
 
 .quote {
     font-family: "Roboto", sans-serif;
+    font-size: 36px;
     font-style: italic;
     font-weight: 300;
+}
+
+.author {
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
 }
