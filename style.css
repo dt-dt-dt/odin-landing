@@ -96,11 +96,23 @@ header h1 {
     gap: 24px
 }
 
-.nav a {
+.nav a, .section-a p {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 12pt;
+}
+
+button {
+    background-color: #3882F6;
+    border: 1px #3882F6 solid;
+    border-radius: 8px;
+    padding: 8px 36px;
 }
 
 .main {
@@ -113,6 +125,12 @@ header h1 {
     gap: 24px;
 }
 
+.section-a h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
 #placeholder-a {
     background-color: grey;
     width: 800px;
@@ -121,7 +139,7 @@ header h1 {
 
 .section-b {
     background-color: #fff;
-    padding: 0 128px;
+    padding: 24px 128px 48px 128px;
 }
 
 .section-b h2 {
@@ -139,11 +157,24 @@ header h1 {
 .blocks-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #placeholder-b {
-    height: 150px;
-    width: 150px;
+    height: 128px;
+    width: 128px;
     background-color: white;
-    border: 2px #3882F6 solid;
+    border: 4px #3882F6 solid;
+    border-radius: 16px;
+}
+
+.section-c {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 300;
 }
