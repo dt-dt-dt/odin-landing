@@ -187,3 +187,34 @@ button {
     font-weight: bold;
     font-size: 16pt;
 }
+
+.section-d {
+    background-color: white;
+    padding: 128px 128px;
+}
+
+.section-d h2, .section-d p {
+    font-family: "Roboto", sans-serif;
+    margin: 8px;
+    color: white;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 48px 128px;
+    border-radius: 16px;
+}
+
+.cta button {
+    background-color: #3882F6;
+    font-family: "Roboto", sans-serif;
+    font-size: 12pt;
+    color: white;
+    font-weight: bold;
+    border: 1px #fff solid;
+    border-radius: 8px;
+    padding: 8px 36px;
+}
